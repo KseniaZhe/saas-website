@@ -1,0 +1,115 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Englebert', sans-serif;*/
+
+html {
+  font-family: Raleway,sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  border-radius: 10px;
+  background-color: #ff6633;
+}
+
+.nav {
+  background-color: #3ac0c3;
+}
+
+.nav-list a {
+  display: block;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+[type="checkbox"] + label::before {
+  position: absolute;
+  top: -6em;
+}
+
+.nav-label {
+  cursor: pointer;
+  width: 40px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: inline-block;
+}
+
+.nav-bar {
+  position: relative;
+}
+
+.nav {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top: 100%;
+}
+
+header {
+  background-color: #666;
+}
+
+.icon-logo {
+  width: 130px;
+  height: 43px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  [type="checkbox"] + label {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+    width: 66%;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .nav-bar {
+    width: 95%;
+    margin: auto;
+  }
+
+  .nav {
+    background-color: inherit;
+  }
+
+  a:hover {
+    color: #3ac0c3;
+    background-color: inherit;
+
+}
