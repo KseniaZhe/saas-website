@@ -7,18 +7,19 @@ html {
 
 /*------------------------------------navigation----------------------------------------*/
 
-a {
+a,
+.btn-nav {
   text-decoration: none;
 }
 
-a:hover {
+.btn-nav:hover {
   border-radius: 15px;
-  background-color: #ff6633;
+  background-color: #fd6831;
 }
 
 
 .nav {
-  background-color: #3ac0c3;
+  background-color: #00b9b7;
 }
 
 .nav-list a {
@@ -70,6 +71,7 @@ a:hover {
 
 .nav-bar {
   position: relative;
+  z-index: 4;
 }
 
 .nav {
@@ -77,10 +79,6 @@ a:hover {
   width: 100%;
   right: 0;
   top: 100%;
-}
-
-header {
-  background-color: #666;
 }
 
 .icon-logo {
@@ -111,19 +109,19 @@ header {
     background-color: inherit;
   }
 
-  a:hover {
-    color: #3ac0c3;
+  .btn-nav:hover {
+    color: #00b9b7;
     background-color: inherit;
   }
 
   .sign {
-    border: solid 2px #ff6633;
+    border: solid 2px #fd6831;
     border-radius: 15px;
   }
 
   .sign:hover {
     color: #fff;
-    background-color: #ff6633;
+    background-color: #fd6831;
   }
 
   .icon-logo {
@@ -136,6 +134,112 @@ header {
 
   .nav-bar {
     width: 85%;
+  }
+
 }
 
 /*------------------------------------banner----------------------------------------*/
+
+.btn-get-str {
+  color: #fff;
+  background-color: #fd6831;
+  border: solid 2px #fd6831;
+  border-radius: 15px;
+  padding: .65rem 1.3rem;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.btn-get-str:hover {
+  background-color: #ef5a23;
+  border-color: #ef5a23;
+}
+
+.script {
+  font-family: Englebert, sans-serif;
+}
+
+.banner-caption {
+  width: 90%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  color: #fff;
+}
+
+.banner {
+  overflow: hidden;
+  height: 640px;
+  width: 100%;
+}
+
+.banner img {
+  width: 1366px;
+  height: 820px;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.banner-section {
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+
+.double-1-4-yotta {
+  font-size: 3.542rem;
+  line-height: 4rem;
+}
+
+.blue {
+  color: #00b9b7;
+}
+
+.orange {
+  color: #fd6831;
+}
+
+@media only screen and (min-width: 60em) {
+
+.banner img {
+  width: 1366px;
+  height: 820px;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  width: 100%;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+  }
+}
+
+
+/*.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+  --------
+
+}*/
