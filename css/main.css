@@ -539,7 +539,8 @@ main {
 @media only screen and (min-width: 38em) {
 
   .data,
-  .features {
+  .features,
+  .price {
     max-width: 35em;
     margin-left: auto;
     margin-right: auto;
@@ -559,7 +560,8 @@ main {
 @media only screen and (min-width: 60em) {
 
   .data,
-  .features {
+  .features,
+  .price {
     max-width: 100%;
   }
 
@@ -585,7 +587,8 @@ main {
 @media only screen and (min-width: 65em) {
 
   .data,
-  .features {
+  .features,
+  .price {
     width: 55em;
     margin-left: auto;
     margin-right: auto;
@@ -622,7 +625,8 @@ main {
 
 }
 
-.card {
+.card,
+.card-price {
   background-color: #fff;
   border-radius: 15px;
   width: 18em;
@@ -673,7 +677,8 @@ main {
 
 @media only screen and (min-width: 45em) {
 
-  .card-wrapper {
+  .card-wrapper,
+  .price-wrapper {
     max-width: 39em;
   }
 
@@ -694,7 +699,8 @@ main {
     display: flex;
   }
 
-  .card-wrapper {
+  .card-wrapper,
+  .price-wrapper {
     background-color: inherit;
     position: absolute;
     top: 55%;
@@ -713,7 +719,8 @@ main {
 
 @media only screen and (min-width: 65em) {
 
-  .card-wrapper {
+  .card-wrapper,
+  .price-wrapper {
     width: 55em;
     max-width: 55em;
   }
@@ -805,4 +812,16 @@ footer {
     color: #00b9b7;
   }
 
+}
+
+/*------------------------------------pricing page: price-cards section----------------------------------------*/
+
+.price-header-box {
+  color: #fff;
+  background-color: #00b9b7;
+  border-radius: 11px 11px 0 0;
+}
+
+.card-price {
+  border: 3px solid #00b9b7;
 }
