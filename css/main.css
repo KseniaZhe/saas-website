@@ -213,18 +213,6 @@ nav [type="checkbox"] + label::before {
   width: 100%;
 }
 
-
-.extra-xl-yotta {
-  font-size: 3.3rem;
-  line-height: 3.6rem;
-}
-
-.extra-yotta {
-  font-size: 3rem;
-  line-height: 3.5rem;
-}
-
-
 .blue {
   color: #00b9b7;
 }
@@ -236,7 +224,7 @@ nav [type="checkbox"] + label::before {
 @media only screen and (min-width: 28em) {
 
   .banner-caption {
-    max-width: 26em;
+    max-width: 25em;
   }
 
 }
@@ -532,12 +520,68 @@ main {
 }
 
 .data-card {
-  width: 15em;
+  max-width: 22em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .data-card img {
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .data {
+    max-width: 35em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .data-card {
+    max-width: 100%;
+  }
+
+  .data-card img {
+    margin-left: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .data {
+    max-width: 100%;
+  }
+
+  .data-card {
+    max-width: 32em;
+  }
+
+  .data-card {
+    padding: 0 .7rem;
+  }
+
+  .data-card img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .icon-data-94 {
+    height: 261px;
+    width: 273px;
+  }
+
+}
+
+@media only screen and (min-width: 65em) {
+
+  .data {
+    width: 55em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 /*------------------------------------card section on the homepage----------------------------------------*/
@@ -563,14 +607,16 @@ main {
 
 .card-wrapper {
   background-color: #fd6831;
+  max-width: 55em;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .card {
   background-color: #fff;
   border-radius: 15px;
-  width: 20em;
+  width: 18em;
   margin-left: auto;
   margin-right: auto;
   border: 3px solid #fd6831;
@@ -578,14 +624,33 @@ main {
 
 .question-caption {
   width: 15em;
-  top: 25%;
+  top: 35%;
+  color: #fff;
+  left: 0;
 }
 
 .icon-card {
-  width: 206px;
-  height: 150px;
+  width: 185px;
+  height: 135px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .question-caption {
+    left: 5%;
+    top: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 32em) {
+
+  .question-caption {
+    width: 17em;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -594,10 +659,26 @@ main {
     display: none;
   }
 
+}
+
+@media only screen and (min-width: 45em) {
+
+  .card-wrapper {
+    max-width: 39em;
+  }
+
+  .question-section {
+    background-color: #fd6831;
+  }
+
 
 }
 
 @media only screen and (min-width: 60em) {
+
+  .question-section {
+    background-color: inherit;
+  }
 
   .card-wrapper li:last-child {
     display: flex;
@@ -607,7 +688,24 @@ main {
     background-color: inherit;
     position: absolute;
     top: 55%;
+    left: 50%;
     width: 100%;
+    max-width: 100%;;
+    transform: translateX(-50%);
+  }
+
+  .question-caption {
+    top: 25%;
+    width: 20em;
+  }
+
+}
+
+@media only screen and (min-width: 65em) {
+
+  .card-wrapper {
+    width: 55em;
+    max-width: 55em;
   }
 
 }
@@ -615,8 +713,8 @@ main {
 /*------------------------------------footer on the homepage----------------------------------------*/
 
 footer {
-  background-color: #f2f2f2;
-  padding-top: 6rem;
+  background-color: #fd6831;
+  color: #fff;
 }
 
 .icon-social {
@@ -628,6 +726,14 @@ footer {
   text-transform: uppercase;
 }
 
+@media only screen and (min-width: 38em) {
+
+  .rights p {
+    display: inline-block;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
 
   .icon-social {
@@ -635,5 +741,32 @@ footer {
     width: 50px;
   }
 
+  footer {
+    padding-top: 8rem;
+  }
+
+}
+
+@media only screen and (min-width: 69em) {
+
+  footer {
+    padding-top: 5.7rem;
+  }
+
+}
+
+@media only screen and (min-width: 78em) {
+
+  footer {
+    padding-top: 3.4rem;
+  }
+
+}
+
+@media only screen and (min-width: 87em) {
+
+  footer {
+    padding-top: 1.1rem;
+  }
 
 }

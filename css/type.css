@@ -1,6 +1,6 @@
 /*
   Typografier || Code released under the UNLICENSE
-  https://typografier.web-dev.tools/#0,100,1.3,1.067,0;38,110,1.4,1.125,1;60,120,1.5,1.125,1;90,130,1.5,1.125,1
+  https://typografier.web-dev.tools/#0,100,1.3,1.333,0;38,110,1.4,1.333,1;60,120,1.5,1.333,1;90,130,1.5,1.333,1
 */
 
 html {
@@ -170,43 +170,43 @@ caption {
 }
 
 .yotta {
-  font-size: 1.5745rem;
-  line-height: 2.275rem;
+  font-size: 7.4784rem;
+  line-height: 9.75rem;
 }
 
 .zetta {
-  font-size: 1.4757rem;
-  line-height: 1.95rem;
+  font-size: 5.6102rem;
+  line-height: 7.475rem;
 }
 
 h1,
 .exa {
-  font-size: 1.383rem;
-  line-height: 1.95rem;
+  font-size: 4.2087rem;
+  line-height: 5.525rem;
 }
 
 h2,
 .peta {
-  font-size: 1.2962rem;
-  line-height: 1.95rem;
+  font-size: 3.1573rem;
+  line-height: 4.225rem;
 }
 
 h3,
 .tera {
-  font-size: 1.2148rem;
-  line-height: 1.625rem;
+  font-size: 2.3686rem;
+  line-height: 3.25rem;
 }
 
 h4,
 .giga {
-  font-size: 1.1385rem;
-  line-height: 1.625rem;
+  font-size: 1.7769rem;
+  line-height: 2.6rem;
 }
 
 h5,
 .mega {
-  font-size: 1.067rem;
-  line-height: 1.625rem;
+  font-size: 1.333rem;
+  line-height: 1.95rem;
 }
 
 h6,
@@ -219,13 +219,13 @@ textarea {
 
 small,
 .milli {
-  font-size: .9372rem;
+  font-size: .7502rem;
   line-height: 1.3rem;
 }
 
 .micro {
-  font-size: .8784rem;
-  line-height: 1.3rem;
+  font-size: .5628rem;
+  line-height: .975rem;
 }
 
 ul {
@@ -250,7 +250,6 @@ select {
 [type="radio"] {
   display: inline-block;
   height: auto;
-  width: auto;
 }
 
 .push {
@@ -375,7 +374,8 @@ table th {
 
 .island-eighth,
 .island-1-8,
-input,
+input:not([type="checkbox"]),
+input:not([type="radio"]),
 textarea {
   padding: .1625rem;
 }
@@ -455,42 +455,42 @@ legend {
   }
 
   .yotta {
-    font-size: 2.2807rem;
-    line-height: 3.15rem;
+    font-size: 7.4784rem;
+    line-height: 9.8rem;
   }
 
   .zetta {
-    font-size: 2.0273rem;
-    line-height: 2.8rem;
+    font-size: 5.6102rem;
+    line-height: 7.35rem;
   }
 
   h1,
   .exa {
-    font-size: 1.802rem;
-    line-height: 2.45rem;
+    font-size: 4.2087rem;
+    line-height: 5.6rem;
   }
 
   h2,
   .peta {
-    font-size: 1.6018rem;
-    line-height: 2.1rem;
+    font-size: 3.1573rem;
+    line-height: 4.2rem;
   }
 
   h3,
   .tera {
-    font-size: 1.4238rem;
-    line-height: 2.1rem;
+    font-size: 2.3686rem;
+    line-height: 3.15rem;
   }
 
   h4,
   .giga {
-    font-size: 1.2656rem;
-    line-height: 1.75rem;
+    font-size: 1.7769rem;
+    line-height: 2.45rem;
   }
 
   h5,
   .mega {
-    font-size: 1.125rem;
+    font-size: 1.333rem;
     line-height: 1.75rem;
   }
 
@@ -504,13 +504,13 @@ legend {
 
   small,
   .milli {
-    font-size: .8889rem;
+    font-size: .7502rem;
     line-height: 1.4rem;
   }
 
   .micro {
-    font-size: .7901rem;
-    line-height: 1.4rem;
+    font-size: .5628rem;
+    line-height: 1.05rem;
   }
 
   ul,
@@ -555,7 +555,6 @@ legend {
   [type="radio"] {
     display: inline-block;
     height: auto;
-    width: auto;
   }
 
   .push {
@@ -680,7 +679,8 @@ legend {
 
   .island-eighth,
   .island-1-8,
-  input,
+  input:not([type="checkbox"]),
+  input:not([type="radio"]),
   textarea {
     padding: .175rem;
   }
@@ -762,43 +762,43 @@ legend {
   }
 
   .yotta {
-    font-size: 2.2807rem;
-    line-height: 3rem;
+    font-size: 7.4784rem;
+    line-height: 9.75rem;
   }
 
   .zetta {
-    font-size: 2.0273rem;
-    line-height: 3rem;
+    font-size: 5.6102rem;
+    line-height: 7.5rem;
   }
 
   h1,
   .exa {
-    font-size: 1.802rem;
-    line-height: 2.625rem;
+    font-size: 4.2087rem;
+    line-height: 5.625rem;
   }
 
   h2,
   .peta {
-    font-size: 1.6018rem;
-    line-height: 2.25rem;
+    font-size: 3.1573rem;
+    line-height: 4.125rem;
   }
 
   h3,
   .tera {
-    font-size: 1.4238rem;
-    line-height: 1.875rem;
+    font-size: 2.3686rem;
+    line-height: 3.375rem;
   }
 
   h4,
   .giga {
-    font-size: 1.2656rem;
-    line-height: 1.875rem;
+    font-size: 1.7769rem;
+    line-height: 2.625rem;
   }
 
   h5,
   .mega {
-    font-size: 1.125rem;
-    line-height: 1.5rem;
+    font-size: 1.333rem;
+    line-height: 1.875rem;
   }
 
   h6,
@@ -811,13 +811,13 @@ legend {
 
   small,
   .milli {
-    font-size: .8889rem;
-    line-height: 1.5rem;
+    font-size: .7502rem;
+    line-height: 1.125rem;
   }
 
   .micro {
-    font-size: .7901rem;
-    line-height: 1.5rem;
+    font-size: .5628rem;
+    line-height: .75rem;
   }
 
   ul,
@@ -862,7 +862,6 @@ legend {
   [type="radio"] {
     display: inline-block;
     height: auto;
-    width: auto;
   }
 
   .push {
@@ -987,7 +986,8 @@ legend {
 
   .island-eighth,
   .island-1-8,
-  input,
+  input:not([type="checkbox"]),
+  input:not([type="radio"]),
   textarea {
     padding: .1875rem;
   }
@@ -1069,43 +1069,43 @@ legend {
   }
 
   .yotta {
-    font-size: 2.2807rem;
-    line-height: 3rem;
+    font-size: 7.4784rem;
+    line-height: 9.75rem;
   }
 
   .zetta {
-    font-size: 2.0273rem;
-    line-height: 3rem;
+    font-size: 5.6102rem;
+    line-height: 7.5rem;
   }
 
   h1,
   .exa {
-    font-size: 1.802rem;
-    line-height: 2.625rem;
+    font-size: 4.2087rem;
+    line-height: 5.625rem;
   }
 
   h2,
   .peta {
-    font-size: 1.6018rem;
-    line-height: 2.25rem;
+    font-size: 3.1573rem;
+    line-height: 4.125rem;
   }
 
   h3,
   .tera {
-    font-size: 1.4238rem;
-    line-height: 1.875rem;
+    font-size: 2.3686rem;
+    line-height: 3.375rem;
   }
 
   h4,
   .giga {
-    font-size: 1.2656rem;
-    line-height: 1.875rem;
+    font-size: 1.7769rem;
+    line-height: 2.625rem;
   }
 
   h5,
   .mega {
-    font-size: 1.125rem;
-    line-height: 1.5rem;
+    font-size: 1.333rem;
+    line-height: 1.875rem;
   }
 
   h6,
@@ -1118,13 +1118,13 @@ legend {
 
   small,
   .milli {
-    font-size: .8889rem;
-    line-height: 1.5rem;
+    font-size: .7502rem;
+    line-height: 1.125rem;
   }
 
   .micro {
-    font-size: .7901rem;
-    line-height: 1.5rem;
+    font-size: .5628rem;
+    line-height: .75rem;
   }
 
   ul,
@@ -1169,7 +1169,6 @@ legend {
   [type="radio"] {
     display: inline-block;
     height: auto;
-    width: auto;
   }
 
   .push {
@@ -1294,7 +1293,8 @@ legend {
 
   .island-eighth,
   .island-1-8,
-  input,
+  input:not([type="checkbox"]),
+  input:not([type="radio"]),
   textarea {
     padding: .1875rem;
   }
