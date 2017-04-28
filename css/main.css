@@ -846,3 +846,65 @@ footer {
 a:hover .compare-section{
   background-color: #663695;
 }
+
+/*------------------------------------tour page --------------------------------------------------------------*/
+
+.header {
+  background-color: #663695;
+}
+
+.price-table {
+  background-color: #fff;
+}
+
+.purple {
+  color: #663695;
+}
+
+table {
+  min-width: 50em;
+}
+
+tr,
+th,
+td {
+  border-color: #00b9b7;
+}
+
+.features {
+  width: 10em;
+}
+
+th {
+  height: 3.5em;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+td {
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.icon-v-table {
+  width: 25px;
+  height: 15px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrap {
+    overflow: visible;
+  }
+
+}
+
+@media only screen and (min-width: 65em) {
+
+  .price-table {
+    max-width: 52em;
+  }
+
+
+
+}
