@@ -677,8 +677,7 @@ main {
 
 @media only screen and (min-width: 45em) {
 
-  .card-wrapper,
-  .price-wrapper {
+  .card-wrapper {
     max-width: 39em;
   }
 
@@ -699,8 +698,7 @@ main {
     display: flex;
   }
 
-  .card-wrapper,
-  .price-wrapper {
+  .card-wrapper {
     background-color: inherit;
     position: absolute;
     top: 55%;
@@ -758,7 +756,7 @@ footer {
     width: 50px;
   }
 
-  footer {
+  .footer {
     padding-top: 8rem;
   }
 
@@ -766,7 +764,7 @@ footer {
 
 @media only screen and (min-width: 69em) {
 
-  footer {
+  .footer {
     padding-top: 5.7rem;
   }
 
@@ -774,7 +772,7 @@ footer {
 
 @media only screen and (min-width: 78em) {
 
-  footer {
+  .footer {
     padding-top: 3.4rem;
   }
 
@@ -782,7 +780,7 @@ footer {
 
 @media only screen and (min-width: 87em) {
 
-  footer {
+  .footer {
     padding-top: 1.1rem;
   }
 
@@ -824,4 +822,27 @@ footer {
 
 .card-price {
   border: 3px solid #00b9b7;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .card-price {
+    width: 15em;
+  }
+
+  .price-wrapper {
+    width: 100%;
+  }
+}
+
+/*------------------------------------pricing page: compare prices link section----------------------------------------*/
+
+.compare-section {
+  background-color: #00b9b7;
+  width: 100%;
+  color: #fff;
+}
+
+a:hover .compare-section{
+  background-color: #663695;
 }
