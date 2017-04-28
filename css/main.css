@@ -218,7 +218,6 @@ nav [type="checkbox"] + label::before {
   height: 1020px;
 }
 
-
 .banner-company-cut {
   background-image: url("../images/banner-company-cut.jpg");
   background-size: cover;
@@ -232,16 +231,15 @@ nav [type="checkbox"] + label::before {
   display: none;
 }
 
-.banner img,
+/* .banner img,
 .banner-wider img {
-/*  left: 50%;
+  left: 50%;
   top: 50%;
   height: 100%;
   width: auto;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); */
-}
 
 .banner-section {
   top: 0;
@@ -289,11 +287,11 @@ nav [type="checkbox"] + label::before {
   }
 
   .banner-pricing-cut {
-     display: none;
+    display: none;
   }
 
   .banner-pricing {
-     display: block;
+    display: block;
   }
 
   .banner-company-cut {
@@ -306,17 +304,14 @@ nav [type="checkbox"] + label::before {
 
 }
 
-@media only screen and (min-width: 69.5em) {
-
+/* @media only screen and (min-width: 69.5em) {
   .banner img {
-/*    left: 50%;
+    left: 50%;
     top: 50%;
     height: 100%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); */
-  }
-}
 
 /* ------------------------------------sign-in page---------------------------------------- */
 
@@ -642,13 +637,6 @@ main {
   position: relative;
 }
 
-.card-wrapper {
-  background-color: #fd6831;
-  max-width: 55em;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .card,
 .card-price {
   background-color: #fff;
@@ -719,9 +707,6 @@ main {
 
   .card-wrapper {
     top: 55%;
-  }
-
-  .card-wrapper {
     max-width: 100%;
   }
 
