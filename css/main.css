@@ -1,12 +1,9 @@
-/*font-family: 'Raleway', sans-serif;
-font-family: 'Englebert', sans-serif;*/
-
 html {
-  font-family: Raleway,sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
 }
 
-/*------------------------------------navigation----------------------------------------*/
+/* ------------------------------------navigation---------------------------------------- */
 
 a:focus,
 [tabindex="0"]:focus,
@@ -30,9 +27,13 @@ a,
   background-color: #fd6831;
 }
 
-
 .nav {
   background-color: #00b9b7;
+  display: none;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top: 100%;
 }
 
 .nav-list a {
@@ -40,10 +41,6 @@ a,
   font-weight: 500;
   color: #fff;
   text-transform: uppercase;
-}
-
-.nav {
-  display: none;
 }
 
 .nav-check:checked ~ .nav {
@@ -91,13 +88,6 @@ nav [type="checkbox"] + label::before {
   z-index: 4;
 }
 
-.nav {
-  position: absolute;
-  width: 100%;
-  right: 0;
-  top: 100%;
-}
-
 .icon-logo {
   width: 130px;
   height: 43px;
@@ -115,15 +105,12 @@ nav [type="checkbox"] + label::before {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    background-color: inherit;
   }
 
   .nav-bar {
     width: 95%;
     margin: auto;
-  }
-
-  .nav {
-    background-color: inherit;
   }
 
   .btn-nav:hover {
@@ -156,8 +143,7 @@ nav [type="checkbox"] + label::before {
 
 }
 
-/*------------------------------------banner----------------------------------------*/
-
+/* ------------------------------------banner---------------------------------------- */
 
 .btn-get-str {
   color: #fff;
@@ -197,15 +183,13 @@ nav [type="checkbox"] + label::before {
 
 .banner img,
 .banner-wider img {
-  width: 1366px;
-  height: 820px;
   left: 50%;
   top: 50%;
   height: 100%;
   width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .banner-section {
@@ -245,41 +229,17 @@ nav [type="checkbox"] + label::before {
 
 @media only screen and (min-width: 69.5em) {
 
-.banner img {
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
+  .banner img {
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
 
-
-/*.thumbnail {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-}
-.thumbnail img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
-}
-.thumbnail img.portrait {
-  width: 100%;
-  height: auto;
-  --------
-
-}*/
-
-/*------------------------------------sign-in page----------------------------------------*/
+/* ------------------------------------sign-in page---------------------------------------- */
 
 .banner-form {
   z-index: 3;
@@ -304,7 +264,7 @@ textarea {
   display: block;
   width: 100%;
   background-color: #fff;
-  border: 2px solid #00b9b7;;
+  border: 2px solid #00b9b7;
   border-radius: 5px;
   height: 35px;
 }
@@ -314,7 +274,7 @@ select {
   width: 100%;
   background-color: #00b9b7;
   color: #fff;
-  border: 2px solid #00b9b7;;
+  border: 2px solid #00b9b7;
   border-radius: 5px;
   height: 35px;
 }
@@ -338,6 +298,7 @@ input[type="checkbox"] + label::before {
 
   .form-header-box {
     border-radius: 15px 15px 0 0;
+    height: 3em;
   }
 
 }
@@ -354,20 +315,18 @@ input[type="checkbox"] + label::before {
 
 @media only screen and (min-width: 66.6em) {
 
-.banner-wider img {
-  width: 1366px;
-  height: 820px;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
+  .banner-wider img {
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
 
-/*------------------------------------intro section on the homepage----------------------------------------*/
+/* ------------------------------------intro section on the homepage---------------------------------------- */
 
 main {
   color: #95989a;
@@ -401,8 +360,7 @@ main {
 
 }
 
-
-/*------------------------------------quote section on the homepage----------------------------------------*/
+/* ------------------------------------quote section on the homepage---------------------------------------- */
 
 .quote {
   overflow: hidden;
@@ -412,6 +370,7 @@ main {
 .quote-content {
   position: relative;
   max-width: 32em;
+  float: right;
 }
 
 .quote-mark {
@@ -425,12 +384,10 @@ main {
   transform: translateX(-125%);
 }
 
-
 .quote-mark-b {
   bottom: -7rem;
   right: 1rem;
 }
-
 
 .quote-img {
   overflow: hidden;
@@ -439,15 +396,13 @@ main {
 }
 
 .quote-img img {
-  width: 1366px;
-  height: 517px;
   left: 80%;
   top: 50%;
   height: 100%;
   width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .quote-box {
@@ -455,27 +410,20 @@ main {
   background-color: #fd6831;
 }
 
-.quote-content {
-  float: right;
-}
-
 .push-3 {
   margin-bottom: 3.9rem;
 }
 
-
 @media only screen and (min-width: 52em) {
 
   .quote-img img {
-    width: 1366px;
-    height: 517px;
     left: 50%;
     top: 50%;
     height: 100%;
     width: auto;
-    -webkit-transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-            transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 
   .quote-box {
@@ -496,7 +444,7 @@ main {
 
   .quote-mark-t {
     top: 7.5rem;
-    left: 0rem;
+    left: 0;
   }
 
 }
@@ -512,19 +460,17 @@ main {
 @media only screen and (min-width: 83em) {
 
   .quote-img img {
-    width: 1366px;
-    height: 517px;
     left: 50%;
     top: 50%;
     height: auto;
     width: 100%;
-    -webkit-transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-            transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
 
-/*------------------------------------data section on the homepage----------------------------------------*/
+/* ------------------------------------data section on the homepage---------------------------------------- */
 
 .icon-data,
 .icon-feature {
@@ -605,7 +551,8 @@ main {
 
 }
 
-/*------------------------------------card section on the homepage----------------------------------------*/
+/* ------------------------------------card section on the homepage--------------------------------------- */
+
 .question-section {
   position: relative;
 }
@@ -616,14 +563,13 @@ main {
 }
 
 .question-banner img {
-  height: 919px;
   left: 50%;
   top: 50%;
   height: 100%;
   width: 100%;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .card-wrapper {
@@ -694,7 +640,6 @@ main {
     background-color: #fd6831;
   }
 
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -713,7 +658,7 @@ main {
     top: 55%;
     left: 50%;
     width: 100%;
-    max-width: 100%;;
+    max-width: 100%;
     transform: translateX(-50%);
   }
 
@@ -734,7 +679,7 @@ main {
 
 }
 
-/*------------------------------------footer on the homepage----------------------------------------*/
+/* ------------------------------------footer on the homepage---------------------------------------- */
 
 footer {
   background-color: #fd6831;
@@ -795,7 +740,7 @@ footer {
 
 }
 
-/*------------------------------------product page: header-banner----------------------------------------*/
+/* ------------------------------------product page: header-banner---------------------------------------- */
 
 @media only screen and (min-width: 26em) {
 
@@ -821,7 +766,7 @@ footer {
 
 }
 
-/*------------------------------------pricing page: price-cards section----------------------------------------*/
+/* ------------------------------------pricing page: price-cards section---------------------------------------- */
 
 .price-header-box {
   color: #fff;
@@ -844,7 +789,7 @@ footer {
   }
 }
 
-/*------------------------------------pricing page: compare prices link section----------------------------------------*/
+/* ------------------------------------pricing page: compare prices link section---------------------------------------- */
 
 .compare-section {
   background-color: #00b9b7;
@@ -852,11 +797,11 @@ footer {
   color: #fff;
 }
 
-a:hover .compare-section{
+a:hover .compare-section {
   background-color: #663695;
 }
 
-/*------------------------------------Plan tour page --------------------------------------------------------------*/
+/* ------------------------------------Plan tour page -------------------------------------------------------------- */
 
 .header {
   background-color: #663695;
@@ -916,7 +861,7 @@ td {
 
 }
 
-/*------------------------------------Sign up (Register) page --------------------------------------------------------------*/
+/* ------------------------------------Sign up (Register) page -------------------------------------------------------------- */
 
 .banner-form-up {
   z-index: 3;
@@ -934,7 +879,7 @@ td {
   background-color: #00b9b7;
 }
 
-/*------------------------------------Thank you page --------------------------------------------------------------*/
+/* ------------------------------------Thank you page -------------------------------------------------------------- */
 
 .btn-get-str-reverse {
   color: #fd6831;
@@ -957,9 +902,3 @@ td {
   width: 150px;
   height: 90px;
 }
-
-.form-header-box {
-  height: 3em;
-}
-
-banner-form div
