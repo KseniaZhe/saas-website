@@ -174,10 +174,17 @@ nav [type="checkbox"] + label::before {
   color: #fff;
 }
 
+.banner-home-cut {
+  background-image: url("../images/banner-home-boy-cut.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
 .banner-home {
   background-image: url("../images/banner-home-boy.jpg");
   background-size: cover;
   height: 700px;
+  display: none;
 }
 
 .banner-product {
@@ -246,6 +253,18 @@ nav [type="checkbox"] + label::before {
 
   .value {
     margin-bottom: .7rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-home-cut {
+    display: none;
+  }
+
+  .banner-home {
+    display: block;
   }
 
 }
