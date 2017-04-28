@@ -177,19 +177,19 @@ nav [type="checkbox"] + label::before {
 .banner-home {
   background-image: url("../images/banner-home-boy.jpg");
   background-size: cover;
-  height: 640px;
+  height: 700px;
 }
 
 .banner-product {
   background-image: url("../images/banner-product-girl.jpg");
   background-size: cover;
-  height: 640px;
+  height: 700px;
 }
 
 .banner-pricing {
   background-image: url("../images/banner-pricing-boy.jpg");
   background-size: cover;
-  height: 640px;
+  height: 700px;
 }
 
 .banner-wider {
@@ -576,23 +576,14 @@ main {
 
 /* ------------------------------------card section on the homepage--------------------------------------- */
 
+.question-banner {
+  background-image: url("../images/banner-question-boy.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
 .question-section {
   position: relative;
-}
-
-.question-banner {
-  overflow: hidden;
-  width: 100%;
-}
-
-.question-banner img {
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  width: 100%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
 .card-wrapper {
@@ -600,7 +591,6 @@ main {
   max-width: 55em;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .card,
@@ -615,10 +605,11 @@ main {
 
 .question-caption {
   width: 15em;
-  top: 35%;
+  top: 5em;
   color: #fff;
   font-weight: 500;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .icon-card {
@@ -628,27 +619,30 @@ main {
   margin-right: auto;
 }
 
-@media only screen and (min-width: 25em) {
-
-  .question-caption {
-    left: 5%;
-    top: 50%;
-  }
-
-}
-
-@media only screen and (min-width: 32em) {
-
-  .question-caption {
-    width: 17em;
-  }
-
+.card-wrapper {
+  background-color: inherit;
+  position: absolute;
+  top: 12em;
+  left: 50%;
+  width: 100%;
+  max-width: 100%;
+  transform: translateX(-50%);
 }
 
 @media only screen and (min-width: 38em) {
 
+  .question-caption {
+    width: 25em;
+    left: 15em;
+    top: 10em;
+  }
+
   .card-wrapper li:last-child {
     display: none;
+  }
+
+  .card-wrapper {
+    top: 19em;
   }
 
 }
@@ -659,35 +653,20 @@ main {
     max-width: 39em;
   }
 
-  .question-section {
-    background-color: #fd6831;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
-
-  .question-section {
-    background-color: inherit;
-  }
 
   .card-wrapper li:last-child {
     display: flex;
   }
 
   .card-wrapper {
-    background-color: inherit;
-    position: absolute;
     top: 55%;
-    left: 50%;
-    width: 100%;
-    max-width: 100%;
-    transform: translateX(-50%);
   }
 
-  .question-caption {
-    top: 25%;
-    width: 20em;
+  .card-wrapper {
+    max-width: 100%;
   }
 
 }
@@ -709,6 +688,10 @@ footer {
   color: #fff;
 }
 
+.footer {
+  padding-top: 30rem;
+}
+
 .icon-social {
   height: 35px;
   width: 35px;
@@ -724,6 +707,9 @@ footer {
     display: inline-block;
   }
 
+  .footer {
+    padding-top: 1rem;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -734,31 +720,7 @@ footer {
   }
 
   .footer {
-    padding-top: 8rem;
-  }
-
-}
-
-@media only screen and (min-width: 69em) {
-
-  .footer {
-    padding-top: 5.7rem;
-  }
-
-}
-
-@media only screen and (min-width: 78em) {
-
-  .footer {
-    padding-top: 3.4rem;
-  }
-
-}
-
-@media only screen and (min-width: 87em) {
-
-  .footer {
-    padding-top: 1.1rem;
+    padding-top: 5rem;
   }
 
 }
