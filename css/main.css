@@ -880,7 +880,7 @@ td {
   border-color: #00b9b7;
 }
 
-.features {
+.feature {
   width: 10em;
 }
 
@@ -933,3 +933,33 @@ td {
 .body-wrap {
   background-color: #00b9b7;
 }
+
+/*------------------------------------Thank you page --------------------------------------------------------------*/
+
+.btn-get-str-reverse {
+  color: #fd6831;
+  background-color: #fff;
+  border: solid 2px #fd6831;
+  border-radius: 15px;
+  padding: .65rem 1.3rem;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 11rem;
+}
+
+.btn-get-str-reverse:hover {
+  color: #00b9b7;
+  border-color: #00b9b7;
+  background-color: #fff;
+}
+
+.icon-thank {
+  width: 150px;
+  height: 90px;
+}
+
+.form-header-box {
+  height: 3em;
+}
+
+banner-form div
