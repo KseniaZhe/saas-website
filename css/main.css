@@ -193,10 +193,17 @@ nav [type="checkbox"] + label::before {
   height: 700px;
 }
 
+.banner-pricing-cut {
+  background-image: url("../images/banner-pricing-boy-cut.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
 .banner-pricing {
   background-image: url("../images/banner-pricing-boy.jpg");
   background-size: cover;
   height: 700px;
+  display: none;
 }
 
 .banner-wider {
@@ -209,6 +216,20 @@ nav [type="checkbox"] + label::before {
   background-image: url("../images/banner-home-boy.jpg");
   background-size: cover;
   height: 1020px;
+}
+
+
+.banner-company-cut {
+  background-image: url("../images/banner-company-cut.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+.banner-company {
+  background-image: url("../images/banner-company.jpg");
+  background-size: cover;
+  height: 700px;
+  display: none;
 }
 
 .banner img,
@@ -264,6 +285,22 @@ nav [type="checkbox"] + label::before {
   }
 
   .banner-home {
+    display: block;
+  }
+
+  .banner-pricing-cut {
+     display: none;
+  }
+
+  .banner-pricing {
+     display: block;
+  }
+
+  .banner-company-cut {
+    display: none;
+  }
+
+  .banner-company {
     display: block;
   }
 
