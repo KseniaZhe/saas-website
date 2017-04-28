@@ -174,22 +174,45 @@ nav [type="checkbox"] + label::before {
   color: #fff;
 }
 
-.banner,
-.banner-wider {
-  overflow: hidden;
+.banner-home {
+  background-image: url("../images/banner-home-boy.jpg");
+  background-size: cover;
   height: 640px;
-  width: 100%;
+}
+
+.banner-product {
+  background-image: url("../images/banner-product-girl.jpg");
+  background-size: cover;
+  height: 640px;
+}
+
+.banner-pricing {
+  background-image: url("../images/banner-pricing-boy.jpg");
+  background-size: cover;
+  height: 640px;
+}
+
+.banner-wider {
+  background-image: url("../images/banner-home-boy.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+.banner-up {
+  background-image: url("../images/banner-home-boy.jpg");
+  background-size: cover;
+  height: 1020px;
 }
 
 .banner img,
 .banner-wider img {
-  left: 50%;
+/*  left: 50%;
   top: 50%;
   height: 100%;
   width: auto;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 .banner-section {
@@ -230,12 +253,12 @@ nav [type="checkbox"] + label::before {
 @media only screen and (min-width: 69.5em) {
 
   .banner img {
-    left: 50%;
+/*    left: 50%;
     top: 50%;
     height: 100%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
   }
 }
 
